@@ -2,7 +2,7 @@ name: pApUsageReview
 on: [pull_request]
 
 jobs:
-  diff-site:
+  pApUsageReview:
     runs-on: ubuntu-latest
 
     steps:
