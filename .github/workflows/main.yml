@@ -1,4 +1,4 @@
-name: Jekyll diff
+name: pApUsageReview
 on: [pull_request]
 
 jobs:
