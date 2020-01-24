@@ -1,0 +1,12 @@
+name: Jekyll diff
+on: [pull_request]
+
+jobs:
+  diff-site:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - uses: to-s/pApUsageReview@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
